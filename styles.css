@@ -1,0 +1,273 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+section {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #BABABA;
+  line-height: 2.427em;
+  text-align: center;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+section div {
+  margin-bottom: 2em;
+  text-align: left;
+  padding: 1em;
+}
+
+section > code, section code.block {
+  display: block;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+#alpha {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  background: #53E2F9;
+  padding: 20px;
+}
+#alpha:last-child {
+  margin-right: 0;
+}
+
+#beta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#beta:last-child {
+  margin-right: 0;
+}
+
+#gamma {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+  background: #53E2F9;
+  padding: 20px;
+}
+#gamma:last-child {
+  margin-right: 0;
+}
+
+#delta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#delta:last-child {
+  margin-right: 0;
+}
+
+#epsilon {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  background: #53E2F9;
+  padding: 20px;
+}
+#epsilon:last-child {
+  margin-right: 0;
+}
+
+#zeta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#zeta:last-child {
+  margin-right: 0;
+}
+
+#eta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background: #53E2F9;
+  padding: 20px;
+}
+#eta:last-child {
+  margin-right: 0;
+}
+
+#theta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#theta:last-child {
+  margin-right: 0;
+}
+
+#iota {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  background: #53E2F9;
+  padding: 20px;
+}
+#iota:last-child {
+  margin-right: 0;
+}
+
+#kappa {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 57.35098%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#kappa:last-child {
+  margin-right: 0;
+}
+
+#lambda {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  background: #53E2F9;
+  padding: 20px;
+}
+#lambda:last-child {
+  margin-right: 0;
+}
+
+#mu {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#mu:last-child {
+  margin-right: 0;
+}
+
+.zero div#alpha, .zero div#beta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+.zero div#alpha:last-child, .zero div#beta:last-child {
+  margin-right: 0;
+}
