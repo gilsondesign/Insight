@@ -15,11 +15,11 @@ module.exports = function(grunt) {
             
             scripts: {
                 files: ['js/*.js'],
-                tasks: ['concat', 'uglify'],
+                tasks: ['concat'],
                 options: {
                     spawn: false,
                 }
-            } 
+            }
         },
         
         sass: {
@@ -33,6 +33,16 @@ module.exports = function(grunt) {
             }
         },
         
+        concat: {
+            options: {
+                separator: ';',
+            },
+            dist: {
+                src: ['js/*.js'],
+                dest: 'scripts.js'
+            }
+        },
+
         uglify: {
             my_target: {
                 files: {
@@ -43,6 +53,6 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.registerTask('default', ['sass', 'watch']);
+    grunt.registerTask('default', ['sass', 'concat', 'watch']);
     grunt.registerTask('prod', ['sass', 'uglify']);
 };
